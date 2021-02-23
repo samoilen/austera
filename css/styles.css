@@ -1,0 +1,95 @@
+body{
+    font-family: 'Montserrat', serif;
+}
+header{
+    height: 967px;
+    background-image: url(../img/back-header.jpg);
+    background-repeat: no-repeat;
+    background-position:center center ;
+}
+header div.menu{
+    height: 134px;
+    background: rgba(0, 0, 0, 0.4);
+}
+header div.menu a img{
+    display: block;
+    padding-top: 50px;
+    padding-left:100px ;
+}
+header nav ul{
+    list-style-type: none;
+    padding-right: 50px;
+    margin: 0;
+}
+header nav ul li{
+    display: inline-block;
+    margin-right: 50px;
+}
+header nav ul li a{
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+}
+header nav ul li a:hover{
+    color: #39b9ef;
+    text-decoration:underline;
+}
+header div.call-to h1{
+    margin-top: 250px;
+    margin-bottom: 0px;
+    text-align: center;
+    color: #fff;
+    font-size: 72px;
+    font-weight: bold;
+}
+header div.call-to h1 span{
+    color: #2ebaee;
+}
+header div.call-to p {
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+}
+header div.call-to a{
+    display: block;
+    width: 215px;
+    height: 50px;
+    background-color:#2ebaee ;
+    color: #fff;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    margin:0 auto;
+    line-height: 50px;
+}
+/***********************************
+**********our services************
+**************************************/
+section.our_services h2 {
+    font-size: 48px;
+    color: #242424;
+    text-align: center;
+    margin-top: 70px;
+    border-bottom: 1px solid #e7e7e7;
+    padding-bottom: 80px;
+}
+section.our_services div.services div{
+    padding-top:80px;
+}
+div.services div img{
+    display: block;
+    margin-bottom: 50px;
+}
+div.services div h3{
+    font-size: 24px;
+    color: #242424;
+    margin-bottom: 34px;
+}
+div.services div p{
+    color: #878787;
+    font-size: 16px;
+    line-height: 24px;
+}
