@@ -93,3 +93,18 @@ div.services div p{
     font-size: 16px;
     line-height: 24px;
 }
+section.our_services div.buttom a{
+    display: block;
+    width: 150px;
+    height: 45px;
+    background-color:#2ebaee ;
+    color: #fff;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    margin:0 auto;
+    line-height: 50px;
+    
+} 
