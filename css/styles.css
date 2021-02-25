@@ -273,3 +273,24 @@ section.gallery h4:hover{
     margin: 0;
     padding: 140px 65px 0 65px;
 }
+/*************************
+*******check our*********
+*************************/
+section.check_our{
+height: 850px;
+}
+section.check_our h2{
+    font-size: 72px;
+    font-weight: bold;
+
+}
+section.check_our h2 span{
+    color: #2ebaee;
+}
+section.check_our img {
+    display: block;
+    margin: 0 auto;
+    width: 234px;
+    height: 234px;
+    margin-top:40px;
+}
