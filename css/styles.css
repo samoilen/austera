@@ -72,6 +72,7 @@ div.back_services{
     background-image: url(../img/back-services.jpg);
     background-repeat: no-repeat;
     background-position:center center ;
+    padding-bottom: 140px;
 }
 section.our_services h2 {
     font-size: 48px;
@@ -87,6 +88,9 @@ section.our_services div.services div{
 div.services div img{
     display: block;
     margin-bottom: 50px;
+}
+div.services div.services_3 img{
+    max-width: 100px;
 }
 div.services div h3{
     font-size: 24px;
@@ -176,3 +180,49 @@ div.services_3 div.serv-3 a:hover{
     background-color: #2ebaee;
     border: 1px solid #fff;
 }
+/*************************
+*******section 3*********
+*************************/
+section.image_boy{
+    max-height: 660px;
+}
+section.image_boy img{
+    max-width: 100%;
+}
+section.image_boy div h3{
+    color: #000000;
+    font-size: 72px;
+    max-width: 600px;
+    margin-left: 75px;
+
+}
+section.image_boy div p{
+    color: #878787;
+    font-size: 16px;
+    line-height: 30px;
+    max-width: 600px;
+    margin-left: 75px;
+}
+section.image_boy div a{
+    display: block;
+    width: 150px;
+    height: 45px;
+    background-color:#2ebaee ;
+    color: #fff;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    line-height: 44px;
+    margin-top: 50px;
+    margin-left: 75px;
+}
+section.image_boy div a:hover{
+    color:#2ebaee ;
+    background-color:#fff ;
+    border: 1px solid #2ebaee;
+}
+/*************************
+*******section 4*********
+*************************/
