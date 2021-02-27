@@ -2,6 +2,7 @@ body{
     font-family: 'Montserrat', serif;
     margin: 0px;
 }
+*{box-sizing: border-box;}
 .container-fluid{
     padding: 0px;
 }
@@ -76,7 +77,7 @@ div.back_services{
     background-image: url(../img/back-services.jpg);
     background-repeat: no-repeat;
     background-position:center center ;
-    padding-bottom: 140px;
+    /*padding-bottom: 140px;*/
 }
 section.our_services h2 {
     font-size: 48px;
@@ -154,7 +155,7 @@ div.services_2 a{
 div.services_3{
     margin-top: 140px;
 }
-div.services_3 div.serv-3{
+div.services_3 div.services_3{
     padding-left: 100px;
 }
 div.services_3 h3{
@@ -165,7 +166,7 @@ div.services_3 p{
     color: #fff;
     font-size: 16px;
 }
-div.services_3 div.serv-3 a{
+div.services_3 div.services_3 a{
     display: block;
     width: 150px;
     height: 45px;
@@ -179,7 +180,7 @@ div.services_3 div.serv-3 a{
     line-height: 44px;
     margin-top: 50px;
 }
-div.services_3 div.serv-3 a:hover{
+div.services_3 div.services_3 a:hover{
     color:#fff;
     background-color: #2ebaee;
     border: 1px solid #fff;
@@ -496,85 +497,256 @@ footer ul li a:hover{
 @media (min-width: 576px) {  }
 
 
-@media (min-width: 768px) {  }
+@media (min-width: 768px) and (max-width: 991.98px) {
+    header{
+        height: 550px;
+    }
+    header div.menu a img {
+        padding-left: 50px;
+    }
+
+    header div.call-to h1 {
+        margin-top: 100px;
+        font-size: 50px;
+    }
+    header div.call-to p {
+        font-size: 20px;
+        text-align: center;
+    }
+    div.services_2{
+        margin-top: auto;
+    }
+    section.our_services h2 {
+        padding-bottom: 40px;
+        margin-top:40px;
+        font-size: 42px;
+    }
+    section.our_services h3{
+        text-align: center;
+        margin: 0 auto;
+        font-size: 28px;
+    }
+    section.our_services p{
+        text-align: center;
+        margin: 0 auto;
+        font-size: 14px;
+    }
+    div.services_2 a{
+        margin:0 auto;
+    }
+    .first_column{
+        padding-bottom: 10px;
+    }
+    section.our_services div.services div{
+        padding-top:30px ;
+    }
+   
+    div.services div h3{
+        margin: 0 auto;
+        text-align: center;
+    }
+    div.services div img {
+        margin-left: 150px;
+    }
+    div.services_3 {
+        margin-top: 30px;
+    }
+    .image_tablet{
+        margin: 0 auto;
+    }
+    div.services_3 a{
+        display: block;
+        width: 150px;
+        height: 45px;
+        background-color:#2ebaee ;
+        color: #fff;
+        border-radius: 25px;
+        text-align: center;
+        font-size: 14px;
+        font-weight: bold;
+        text-decoration: none;
+        margin: 30px auto;
+        line-height: 44px;
+        border: 1px solid #fff;
+    }
+    div.services_3 a:hover{
+        background-color:#fff ;
+        color: #2ebaee;
+    }
+
+
+        section.image_boy{
+            height: auto;
+        }
+        section.image_boy div p{
+            margin: 0 auto;
+            height: 100px;
+        }
+        section.image_boy div h3{
+            font-size: 45px;
+            margin: 0 auto;
+        }
+        section.gallery h4 {
+            font-size: 30px;
+        }
+        section.image_boy div a {
+            margin-top:90px;
+            margin-bottom: 15px;
+        }
+        section.image_boy img{
+            height:360px;
+        }
+        
+
+
+
+
+
+
+
+
+    section.check_our h2 {
+        text-align: center;
+        font-size: 57px;
+    }
+
+    section.check_our {
+        height: 750px;
+    }
+        section.check_our img {
+            width: 150px;
+            height: 150px;
+        }
+        section.check_our div.name {
+            font-size: 20px;
+        }
+        section.footer {
+            height: 500px;
+        }
+
+        section.footer input[type="text"] {
+            width: 250px; 
+            height: 30px;
+            margin: 130px 28px 5px 28px;
+        }
+        section.footer input[type="email"]{
+            width: 250px; 
+            height: 30px;
+            margin: 5px 28px 5px 28px;
+
+        }
+        section.footer textarea{
+            width: 250px;
+            height: 150px;
+            margin: 5px 28px 20px 28px;
+        }
+        
+
+        section.footer div.contact {
+            font-size: 32px;
+        }
+        section.footer p.adress {
+            font-size: 13px;
+            margin: 20px 0 0 0;
+        }
+        section.footer p {
+            font-size: 20px;
+        }
+
+        section.footer ul{
+            margin-top: auto;
+        }
+            section.footer ul li {
+                margin-right: 10px;
+        }
+        footer ul li a {
+            font-size: 15px;
+        }
+        footer p{
+            font-size: 15px;
+        }
+}
 
 
 
 
 @media (min-width: 992px) and (max-width: 1200px){
 
-    header nav ul li {
-        display: inline-block;
-        margin-right: 35px;
-    }
-    section.image_boy div h3{
-        padding-left:10px ;
-        text-align: left;
-        margin: auto;
-        margin-left: auto;
-    }
-    div.services div img{
-        display: block;
-        margin: 0 auto;
-        width: 80px;
-    }
-    section.image_boy div p{
-        margin: auto;
-    }
-    div.services_2 h3 {
-        margin: 0;
-        text-align: center;
-    }
-    section.image_boy div h3{
-        font-size: 50px;
-        margin-top: 0;
+        header nav ul li {
+            display: inline-block;
+            margin-right: 35px;
+        }
+        section.image_boy div h3{
+            padding-left:10px ;
+            text-align: left;
+            margin: auto;
+            margin-left: auto;
+        }
+        div.services div img{
+            display: block;
+            margin: 0 auto;
+            width: 80px;
+        }
+        section.image_boy div p{
+            margin: auto;
+        }
+        div.services_2 h3 {
+            margin: 0;
+            text-align: center;
+        }
+        section.image_boy div h3{
+            font-size: 50px;
+            margin-top: 0;
 
-    }
-    section.image_boy {
-        height:auto;
-    }
-    section.image_boy div a{
-        margin: auto;
-    }
-    section.gallery h4{
-        font-size: 35px;
-    }
-    section.check_our h2{
-        text-align: center;
-        font-size: 60px;
-        margin-top: 50px;
-    }
-    section.check_our img{
-        display: block;
-        margin: 0 auto;
-        width: 200px;
-        height: 200px;
-        margin-top: 40px;
-    }
-    section.check_our div.name {
-        font-size: 24px;
-        
-    }
-    section.footer input[type="text"], section.footer input[type="email"] {
-        width: 400px;
-    }
-    section.footer textarea {
-        width: 400px;
-        height: 200px;
-    }
-    section.footer div.contact {
-        font-size: 50px;
-    }
-    section.footer p {
-        font-size: 20px;
-    }
-    section.footer ul {
-        list-style-type: none;
-        margin-top: 30px;
-        padding: 0 0 0 0;
+        }
+        section.image_boy {
+            height:auto;
+        }
+        section.image_boy div a{
+            margin: auto;
+        }
+        section.gallery h4{
+            font-size: 35px;
+        }
+        section.check_our h2{
+            text-align: center;
+            font-size: 60px;
+            margin-top: 50px;
+        }
+        section.check_our img{
+            display: block;
+            margin: 0 auto;
+            width: 200px;
+            height: 200px;
+            margin-top: 40px;
+        }
+        section.check_our div.name {
+            font-size: 24px;
+            
+        }
+        section.footer input[type="text"], section.footer input[type="email"] {
+            width: 400px;
+        }
+        section.footer textarea {
+            width: 400px;
+            height: 200px;
+        }
+        section.footer div.contact {
+            font-size: 50px;
+        }
+        section.footer p {
+            font-size: 20px;
+        }
+        section.footer ul {
+            list-style-type: none;
+            margin-top: 30px;
+            padding: 0 0 0 0;
+        }
 
-
-}
+        section.footer ul li {
+            margin-right: 20px;
+        }
+    }
 
 
 @media (min-width: 1200px) and (max-width: 1409.98px){ 
@@ -618,4 +790,4 @@ footer ul li a:hover{
         }
 
     }
-}
+
