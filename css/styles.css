@@ -597,15 +597,15 @@ footer ul li a:hover{
             height:360px;
         }
         
-
-
-
-
-
+        section.gallery h4 {
+            font-size: 25px;
+        }
+       
 
 
 
     section.check_our h2 {
+        margin-top: 50px;
         text-align: center;
         font-size: 57px;
     }
