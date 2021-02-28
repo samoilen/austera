@@ -494,10 +494,15 @@ footer ul li a:hover{
 *******breckpoints*************
 *************************/
 
-@media (min-width: 576px) {  }
+@media (min-width: 576px) and (max-width: 767.9px) {
+
+  }
 
 
 @media (min-width: 768px) and (max-width: 991.98px) {
+    body{
+        margin: 0 -15px;
+    }
     header{
         height: 550px;
     }
@@ -533,6 +538,7 @@ footer ul li a:hover{
     }
     div.services_2 a{
         margin:0 auto;
+        border: 1px solid #fff;
     }
     .first_column{
         padding-bottom: 10px;
@@ -575,34 +581,27 @@ footer ul li a:hover{
     }
 
 
-        section.image_boy{
-            height: auto;
-        }
-        section.image_boy div p{
-            margin: 0 auto;
-            height: 100px;
-        }
-        section.image_boy div h3{
-            font-size: 45px;
-            margin: 0 auto;
-        }
-        section.gallery h4 {
-            font-size: 30px;
-        }
-        section.image_boy div a {
-            margin-top:90px;
-            margin-bottom: 15px;
-        }
-        section.image_boy img{
-            height:360px;
-        }
-        
-        section.gallery h4 {
-            font-size: 25px;
-        }
-       
-
-
+            section.image_boy{
+                height: auto;
+            }
+            section.image_boy div p{
+                margin: 0 auto;
+                height: 100px;
+            }
+            section.image_boy div h3{
+                font-size: 45px;
+                margin: 0 auto;
+            }
+            section.gallery h4 {
+                font-size: 36px;
+            }
+            section.image_boy div a {
+                margin-top:90px;
+                margin-bottom: 15px;
+            }
+            section.image_boy img{
+                height:360px;
+            }
 
     section.check_our h2 {
         margin-top: 50px;
@@ -611,6 +610,7 @@ footer ul li a:hover{
     }
 
     section.check_our {
+        margin-top: 500px;
         height: 750px;
     }
         section.check_our img {
@@ -672,6 +672,9 @@ footer ul li a:hover{
 
 @media (min-width: 992px) and (max-width: 1200px){
 
+    body{
+        margin: 0 -15px;
+    }
         header nav ul li {
             display: inline-block;
             margin-right: 35px;
@@ -699,11 +702,14 @@ footer ul li a:hover{
             margin-top: 0;
 
         }
+        div.services_3  a{
+            margin-bottom: 10px;
+        }
         section.image_boy {
             height:auto;
         }
         section.image_boy div a{
-            margin: auto;
+            margin:auto;
         }
         section.gallery h4{
             font-size: 35px;
@@ -719,6 +725,12 @@ footer ul li a:hover{
             width: 200px;
             height: 200px;
             margin-top: 40px;
+        }
+        section.our_services h3{
+            text-align: center;
+        }
+        section.our_services p{
+            text-align: center;
         }
         section.check_our div.name {
             font-size: 24px;
@@ -744,12 +756,15 @@ footer ul li a:hover{
         }
 
         section.footer ul li {
-            margin-right: 20px;
+            margin: 0 auto;
         }
     }
 
 
 @media (min-width: 1200px) and (max-width: 1409.98px){ 
+    body{
+        margin: 0 -15px;
+    }
 
         section.gallery h4{
             font-size: 30px;
