@@ -1,45 +1,57 @@
-body{
+body {
     font-family: 'Montserrat', serif;
     margin: 0px;
 }
-*{box-sizing: border-box;}
-.container-fluid{
+
+* {
+    box-sizing: border-box;
+}
+
+.container-fluid {
     padding: 0px;
 }
-header{
+
+header {
     height: 967px;
     background-image: url(../img/back-header.jpg);
     background-repeat: no-repeat;
-    background-position:center center ;
+    background-position: center center;
 }
-header div.menu{
+
+header div.menu {
     height: 134px;
     background: rgba(0, 0, 0, 0.4);
 }
-header div.menu a img{
+
+header div.menu a img {
     display: block;
     padding-top: 50px;
-    padding-left:100px ;
+    padding-left: 100px;
 }
-header nav ul{
+
+header nav ul {
     list-style-type: none;
     padding-right: 50px;
     margin: 0;
 }
-header nav ul li{
+
+header nav ul li {
     display: inline-block;
     margin-right: 50px;
 }
-header nav ul li a{
+
+header nav ul li a {
     color: #fff;
     font-size: 18px;
     text-decoration: none;
 }
-header nav ul li a:hover{
+
+header nav ul li a:hover {
     color: #39b9ef;
-    text-decoration:underline;
+    text-decoration: underline;
 }
-header div.call-to h1{
+
+header div.call-to h1 {
     margin-top: 250px;
     margin-bottom: 0px;
     text-align: center;
@@ -47,38 +59,45 @@ header div.call-to h1{
     font-size: 72px;
     font-weight: bold;
 }
-header div.call-to h1 span{
+
+header div.call-to h1 span {
     color: #2ebaee;
 }
+
 header div.call-to p {
     font-size: 24px;
     color: #fff;
     text-align: center;
     margin-top: 20px;
 }
-header div.call-to a{
+
+header div.call-to a {
     display: block;
     width: 215px;
     height: 50px;
-    background-color:#2ebaee ;
+    background-color: #2ebaee;
     color: #fff;
     border-radius: 25px;
     text-align: center;
     font-size: 18px;
     font-weight: bold;
     text-decoration: none;
-    margin:0 auto;
+    margin: 0 auto;
     line-height: 50px;
 }
+
+
 /***********************************
 **********our services************
 **************************************/
-div.back_services{
+
+div.back_services {
     background-image: url(../img/back-services.jpg);
     background-repeat: no-repeat;
-    background-position:center center ;
+    background-position: center center;
     /*padding-bottom: 140px;*/
 }
+
 section.our_services h2 {
     font-size: 48px;
     color: #242424;
@@ -87,32 +106,39 @@ section.our_services h2 {
     border-bottom: 1px solid #e7e7e7;
     padding-bottom: 80px;
 }
-section.our_services div.services div{
-    padding-top:80px;
+
+section.our_services div.services div {
+    padding-top: 80px;
 }
-div.services div img{
+
+div.services div img {
     display: block;
     margin-bottom: 50px;
 }
-div.services div.services_3 img{
+
+div.services div.services_3 img {
     max-width: 100px;
 }
-div.services div h3{
+
+div.services div h3 {
     font-size: 24px;
     color: #242424;
     margin-bottom: 34px;
 }
-div.services div p, div.services_2 p{
+
+div.services div p,
+div.services_2 p {
     color: #878787;
     font-size: 16px;
     line-height: 24px;
     max-width: 520px;
 }
-section.our_services div.buttom a{
+
+section.our_services div.buttom a {
     display: block;
     width: 150px;
     height: 45px;
-    background-color:#2ebaee ;
+    background-color: #2ebaee;
     color: #fff;
     border-radius: 25px;
     text-align: center;
@@ -121,28 +147,30 @@ section.our_services div.buttom a{
     text-decoration: none;
     margin: 65px auto;
     line-height: 44px;
-    
-} 
-section.our_services div.buttom :hover,div.services_2 a:hover{
-    color:#2ebaee ;
-    background-color:#fff ;
-    border: 1px solid #2ebaee;
-    
 }
-div.services_2{
+
+section.our_services div.buttom :hover,
+div.services_2 a:hover {
+    color: #2ebaee;
+    background-color: #fff;
+    border: 1px solid #2ebaee;
+}
+
+div.services_2 {
     margin-top: 180px;
 }
 
-div.services_2 h3{
+div.services_2 h3 {
     font-size: 36px;
     color: #242424;
     margin-top: 100px;
 }
-div.services_2 a{
+
+div.services_2 a {
     display: block;
     width: 150px;
     height: 45px;
-    background-color:#2ebaee ;
+    background-color: #2ebaee;
     color: #fff;
     border-radius: 25px;
     text-align: center;
@@ -152,25 +180,30 @@ div.services_2 a{
     line-height: 44px;
     margin-top: 50px;
 }
-div.services_3{
+
+div.services_3 {
     margin-top: 140px;
 }
-div.services_3 div.services_3{
+
+div.services_3 div.services_3 {
     padding-left: 100px;
 }
-div.services_3 h3{
+
+div.services_3 h3 {
     color: #fff;
     font-size: 36px;
 }
-div.services_3 p{
+
+div.services_3 p {
     color: #fff;
     font-size: 16px;
 }
-div.services_3 div.services_3 a{
+
+div.services_3 div.services_3 a {
     display: block;
     width: 150px;
     height: 45px;
-    background-color:#fff ;
+    background-color: #fff;
     color: #2ebaee;
     border-radius: 25px;
     text-align: center;
@@ -180,39 +213,46 @@ div.services_3 div.services_3 a{
     line-height: 44px;
     margin-top: 50px;
 }
-div.services_3 div.services_3 a:hover{
-    color:#fff;
+
+div.services_3 div.services_3 a:hover {
+    color: #fff;
     background-color: #2ebaee;
     border: 1px solid #fff;
 }
+
+
 /*************************
 *******section 3*********
 *************************/
-section.image_boy{
+
+section.image_boy {
     height: 638px;
 }
-section.image_boy img{
+
+section.image_boy img {
     max-width: 100%;
 }
-section.image_boy div h3{
+
+section.image_boy div h3 {
     color: #000000;
     font-size: 72px;
     max-width: 600px;
     margin-left: 75px;
-
 }
-section.image_boy div p{
+
+section.image_boy div p {
     color: #878787;
     font-size: 16px;
     line-height: 30px;
     max-width: 600px;
     margin-left: 75px;
 }
-section.image_boy div a{
+
+section.image_boy div a {
     display: block;
     width: 150px;
     height: 45px;
-    background-color:#2ebaee ;
+    background-color: #2ebaee;
     color: #fff;
     border-radius: 25px;
     text-align: center;
@@ -223,101 +263,115 @@ section.image_boy div a{
     margin-top: 50px;
     margin-left: 75px;
 }
-section.image_boy div a:hover{
-    color:#2ebaee ;
-    background-color:#fff ;
+
+section.image_boy div a:hover {
+    color: #2ebaee;
+    background-color: #fff;
     border: 1px solid #2ebaee;
 }
+
+
 /*************************
 *******section 4*********
 *************************/
+
 section.gallery {
     min-height: 430px;
     max-height: 430px;
-    
 }
-section.gallery div.block_1{
+
+section.gallery div.block_1 {
     background-image: url(../img/block3/ico-07.png);
     background-repeat: no-repeat;
     min-height: 430px;
     background-position: center center;
 }
-section.gallery div.block_2{
+
+section.gallery div.block_2 {
     background-image: url(../img/block3/ico-08.png);
     background-repeat: no-repeat;
     min-height: 430px;
     background-position: center center;
 }
-section.gallery div.block_3{
+
+section.gallery div.block_3 {
     background-image: url(../img/block3/ico-09.png);
     background-repeat: no-repeat;
     min-height: 430px;
     background-position: center center;
 }
-section.gallery div.block_4{
+
+section.gallery div.block_4 {
     background-image: url(../img/block3/ico-10.png);
     background-repeat: no-repeat;
     min-height: 430px;
     background-position: center center;
 }
-section.gallery h4{
-    
+
+section.gallery h4 {
     font-size: 48px;
     color: #fff;
     font-weight: bold;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.7) ;
+    background: rgba(0, 0, 0, 0.7);
     margin: 0;
     padding: 140px 65px 0 65px;
     box-sizing: border-box;
-    
 }
-section.gallery h4:hover{
+
+section.gallery h4:hover {
     width: 100%;
     height: 100%;
-    background: rgba(45, 156, 195, 0.7) ;
+    background: rgba(45, 156, 195, 0.7);
 }
+
+
 /*************************
 *******check our*********
 *************************/
-section.check_our{
-height: 850px;
+
+section.check_our {
+    height: 850px;
 }
-section.check_our h2{
-    margin-top:100px ;
+
+section.check_our h2 {
+    margin-top: 100px;
     font-size: 72px;
     font-weight: bold;
-
 }
-section.check_our h2 span{
+
+section.check_our h2 span {
     color: #2ebaee;
 }
+
 section.check_our img {
     display: block;
     margin: 0 auto;
     width: 234px;
     height: 234px;
-    margin-top:40px;
+    margin-top: 40px;
 }
-section.check_our div.name{
+
+section.check_our div.name {
     font-size: 35px;
     color: #242424;
     text-align: center;
     margin-top: 30px;
 }
-section.check_our div.awesome_team span{
+
+section.check_our div.awesome_team span {
     text-align: center;
     display: block;
     font-size: 16px;
-    color:#878787 ;
-
+    color: #878787;
 }
-section.check_our div.awesome_team a{
+
+section.check_our div.awesome_team a {
     display: block;
     width: 150px;
     height: 45px;
-    background-color:#2ebaee ;
+    background-color: #2ebaee;
     color: #fff;
     border-radius: 25px;
     text-align: center;
@@ -326,106 +380,126 @@ section.check_our div.awesome_team a{
     text-decoration: none;
     margin: 30px auto;
     line-height: 44px;
-    
-} 
-section.check_our div.awesome_team a:hover{
-    color:#2ebaee ;
-    background-color:#fff ;
-    border: 1px solid #2ebaee;
-    
 }
+
+section.check_our div.awesome_team a:hover {
+    color: #2ebaee;
+    background-color: #fff;
+    border: 1px solid #2ebaee;
+}
+
+
 /*************************
 *******footer*************
 *************************/
-section.footer{
+
+section.footer {
     background-image: url(../img/back-footer.png);
     background-repeat: no-repeat;
-    background-position:center center ;
+    background-position: center center;
     height: 730px;
 }
-section.footer div.contact{
+
+section.footer div.contact {
     font-size: 72px;
     color: #fff;
     font-weight: bold;
     margin-top: 125px;
 }
-section.footer p.adress{
+
+section.footer p.adress {
     color: #878787;
     font-size: 18px;
-    margin: 20px 0 0 0 ;
-    
+    margin: 20px 0 0 0;
 }
-section.footer p{
+
+section.footer p {
     color: #878787;
     font-size: 32px;
 }
-section.footer p span{
+
+section.footer p span {
     color: #2ebaee;
 }
-section.footer ul{
+
+section.footer ul {
     list-style-type: none;
     margin-top: 70px;
     padding: 0 0 0 0;
 }
-section.footer ul li{
+
+section.footer ul li {
     display: inline-block;
     width: 55px;
     height: 55px;
     border-radius: 27px;
     margin-right: 35px;
 }
+
+
 /*************************
 *******social media*************
 *************************/
-section.footer ul li.facebook{
-    background:#3b5998;
-    box-sizing:border-box;
-    padding: 20px 24px;
+
+section.footer ul li.facebook {
+    background: #3b5998;
+    box-sizing: border-box;
+    padding: 15px 24px;
 }
-section.footer ul li.twitter{
-    background:#55acee;
-    box-sizing:border-box;
-    padding: 19px 19px;
+
+section.footer ul li.twitter {
+    background: #55acee;
+    box-sizing: border-box;
+    padding: 15px 19px;
 }
-section.footer ul li.pinsterest{
-    background:#cc2127;
-    box-sizing:border-box;
-    padding: 20px 20px;
+
+section.footer ul li.pinsterest {
+    background: #cc2127;
+    box-sizing: border-box;
+    padding: 15px 20px;
 }
-section.footer ul li.google{
-    background:#dd4b39;
-    box-sizing:border-box;
-    padding: 20px 20px;
+
+section.footer ul li.google {
+    background: #dd4b39;
+    box-sizing: border-box;
+    padding: 15px 20px;
 }
-section.footer ul li.email{
-    background:#e23047;
-    box-sizing:border-box;
-    padding: 20px 18px;
+
+section.footer ul li.email {
+    background: #e23047;
+    box-sizing: border-box;
+    padding: 12px 18px;
 }
-section.footer ul li:hover{
+
+section.footer ul li:hover {
     background: rgba(130, 130, 130, 0.6);
     cursor: pointer;
-
 }
+
+
 /*************************
 *******web form*************
 *************************/
-section.footer input[type="text"],section.footer input[type="email"]{
-    width:635px;
+
+section.footer input[type="text"],
+section.footer input[type="email"] {
+    width: 635px;
     height: 60px;
     background: none;
     border-radius: 10px;
     border: 1px solid #535353;
     color: #fff;
     font-size: 17px;
-    display:block;
+    display: block;
     padding-left: 50px;
-    margin:20px auto;
+    margin: 20px auto;
 }
-section.footer input[type="text"]{
+
+section.footer input[type="text"] {
     margin-top: 135px;
 }
-section.footer textarea{
+
+section.footer textarea {
     width: 635px;
     height: 200px;
     background: none;
@@ -433,16 +507,17 @@ section.footer textarea{
     border: 1px solid #535353;
     color: #fff;
     font-size: 17px;
-    display:block;
+    display: block;
     padding-left: 50px;
-    margin:20px auto;
+    margin: 20px auto;
     resize: none;
 }
-section.footer button{
+
+section.footer button {
     display: block;
     width: 150px;
     height: 45px;
-    background-color:#2ebaee ;
+    background-color: #2ebaee;
     color: #fff;
     border-radius: 25px;
     border: none;
@@ -453,170 +528,169 @@ section.footer button{
     margin: 30px auto;
     line-height: 44px;
 }
-section.footer button:hover{
-    color:#2ebaee ;
-    background-color:#fff ;
+
+section.footer button:hover {
+    color: #2ebaee;
+    background-color: #fff;
     cursor: pointer;
 }
-footer{
+
+footer {
     margin-top: -15px;
     height: 140px;
     background: #000;
 }
-footer p, footer ul{
+
+footer p,
+footer ul {
     list-style-type: none;
     margin-top: 60px;
     padding: 0 0 0 0;
     color: #fff;
     font-weight: bold;
-
 }
+
 footer ul li {
-    display:inline-block;
+    display: inline-block;
     margin-right: 20px;
 }
-footer ul li a{
+
+footer ul li a {
     color: #fff;
     font-size: 14px;
     text-decoration: none;
     font-weight: bold;
 }
-footer ul li a:hover{
+
+footer ul li a:hover {
     text-decoration: underline;
 }
-.img_adaptive{
+
+.img_adaptive {
     display: block;
     max-width: 100%;
     height: auto;
 }
+
 
 /*************************
 *******breckpoints*************
 *************************/
 
 @media (min-width: 576px) and (max-width: 767.9px) {
-    header div.call-to h1{
+    header div.call-to h1 {
         margin-top: 100px;
         font-size: 46px;
         text-align: center;
-        
     }
-
-
-@media (min-width: 768px) and (max-width: 991.98px) {
-    body{
-        margin: 0 -15px;
-    }
-    header{
-        height: 550px;
-    }
-    header div.menu a img {
-        padding-left: 50px;
-    }
-
-    header div.call-to h1 {
-        margin-top: 100px;
-        font-size: 50px;
-    }
-    header div.call-to p {
-        font-size: 20px;
-        text-align: center;
-    }
-    div.services_2{
-        margin-top: auto;
-    }
-    section.our_services h2 {
-        padding-bottom: 40px;
-        margin-top:40px;
-        font-size: 42px;
-    }
-    section.our_services h3{
-        text-align: center;
-        margin: 0 auto;
-        font-size: 28px;
-    }
-    section.our_services p{
-        text-align: center;
-        margin: 0 auto;
-        font-size: 14px;
-    }
-    div.services_2 a{
-        margin:0 auto;
-        border: 1px solid #fff;
-    }
-    .first_column{
-        padding-bottom: 10px;
-    }
-    section.our_services div.services div{
-        padding-top:30px ;
-    }
-   
-    div.services div h3{
-        margin: 0 auto;
-        text-align: center;
-    }
-    div.services div img {
-        margin-left: 150px;
-    }
-    div.services_3 {
-        margin-top: 30px;
-    }
-    .image_tablet{
-        margin: 0 auto;
-    }
-    div.services_3 a{
-        display: block;
-        width: 150px;
-        height: 45px;
-        background-color:#2ebaee ;
-        color: #fff;
-        border-radius: 25px;
-        text-align: center;
-        font-size: 14px;
-        font-weight: bold;
-        text-decoration: none;
-        margin: 30px auto;
-        line-height: 44px;
-        border: 1px solid #fff;
-    }
-    div.services_3 a:hover{
-        background-color:#fff ;
-        color: #2ebaee;
-    }
-
-
-            section.image_boy{
-                height: auto;
-            }
-            section.image_boy div p{
-                margin: 0 auto;
-                height: 100px;
-            }
-            section.image_boy div h3{
-                font-size: 45px;
-                margin: 0 auto;
-            }
-            section.gallery h4 {
-                font-size: 36px;
-            }
-            section.image_boy div a {
-                margin-top:90px;
-                margin-bottom: 15px;
-            }
-            section.image_boy img{
-                height:360px;
-            }
-
-    section.check_our h2 {
-        margin-top: 50px;
-        text-align: center;
-        font-size: 57px;
-    }
-
-    section.check_our {
-        margin-top: 500px;
-        height: 750px;
-    }
+    @media (min-width: 768px) and (max-width: 991.98px) {
+        body {
+            margin: 0 -15px;
+        }
+        header {
+            height: 550px;
+        }
+        header div.menu a img {
+            padding-left: 50px;
+        }
+        header div.call-to h1 {
+            margin-top: 100px;
+            font-size: 50px;
+        }
+        header div.call-to p {
+            font-size: 20px;
+            text-align: center;
+        }
+        div.services_2 {
+            margin-top: auto;
+        }
+        section.our_services h2 {
+            padding-bottom: 40px;
+            margin-top: 40px;
+            font-size: 42px;
+        }
+        section.our_services h3 {
+            text-align: center;
+            margin: 0 auto;
+            font-size: 28px;
+        }
+        section.our_services p {
+            text-align: center;
+            margin: 0 auto;
+            font-size: 14px;
+        }
+        div.services_2 a {
+            margin: 0 auto;
+            border: 1px solid #fff;
+        }
+        .first_column {
+            padding-bottom: 10px;
+        }
+        section.our_services div.services div {
+            padding-top: 30px;
+        }
+        div.services div h3 {
+            margin: 0 auto;
+            text-align: center;
+        }
+        div.services div img {
+            margin-left: 150px;
+        }
+        div.services_3 {
+            margin-top: 30px;
+        }
+        .image_tablet {
+            margin: 0 auto;
+        }
+        div.services_3 a {
+            display: block;
+            width: 150px;
+            height: 45px;
+            background-color: #2ebaee;
+            color: #fff;
+            border-radius: 25px;
+            text-align: center;
+            font-size: 14px;
+            font-weight: bold;
+            text-decoration: none;
+            margin: 30px auto;
+            line-height: 44px;
+            border: 1px solid #fff;
+        }
+        div.services_3 a:hover {
+            background-color: #fff;
+            color: #2ebaee;
+        }
+        section.image_boy {
+            height: auto;
+        }
+        section.image_boy div p {
+            margin: 0 auto;
+            height: 100px;
+        }
+        section.image_boy div h3 {
+            font-size: 45px;
+            margin: 0 auto;
+        }
+        section.gallery h4 {
+            font-size: 36px;
+        }
+        section.image_boy div a {
+            margin-top: 90px;
+            margin-bottom: 15px;
+        }
+        section.image_boy img {
+            height: 360px;
+        }
+        section.check_our h2 {
+            margin-top: 50px;
+            text-align: center;
+            font-size: 57px;
+        }
+        section.check_our {
+            margin-top: 500px;
+            height: 750px;
+        }
         section.check_our img {
             width: 150px;
             height: 150px;
@@ -627,25 +701,21 @@ footer ul li a:hover{
         section.footer {
             height: 500px;
         }
-
         section.footer input[type="text"] {
-            width: 250px; 
+            width: 250px;
             height: 30px;
             margin: 130px 28px 5px 28px;
         }
-        section.footer input[type="email"]{
-            width: 250px; 
+        section.footer input[type="email"] {
+            width: 250px;
             height: 30px;
             margin: 5px 28px 5px 28px;
-
         }
-        section.footer textarea{
+        section.footer textarea {
             width: 250px;
             height: 150px;
             margin: 5px 28px 20px 28px;
         }
-        
-
         section.footer div.contact {
             font-size: 32px;
         }
@@ -656,91 +726,84 @@ footer ul li a:hover{
         section.footer p {
             font-size: 20px;
         }
-
-        section.footer ul{
+        section.footer ul {
             margin-top: auto;
         }
-            section.footer ul li {
-                margin-right: 10px;
+        section.footer ul li {
+            margin-right: 10px;
         }
         footer ul li a {
             font-size: 15px;
         }
-        footer p{
+        footer p {
             font-size: 15px;
         }
-}
-
-
-
-
-@media (min-width: 992px) and (max-width: 1200px){
-
-    body{
-        margin: 0 -15px;
     }
+    @media (min-width: 992px) and (max-width: 1999.98px) {
+        body {
+            margin: 0 -15px;
+        }
         header nav ul li {
             display: inline-block;
             margin-right: 35px;
         }
-        section.image_boy div h3{
-            padding-left:10px ;
+        section.image_boy div h3 {
+            padding-left: 10px;
             text-align: left;
             margin: auto;
             margin-left: auto;
         }
-        div.services div img{
+        div.services div img {
             display: block;
             margin: 0 auto;
             width: 80px;
         }
-        section.image_boy div p{
+        section.image_boy div p {
             margin: auto;
         }
         div.services_2 h3 {
             margin: 0;
             text-align: center;
         }
-        section.image_boy div h3{
+        section.image_boy div h3 {
             font-size: 50px;
             margin-top: 0;
-
         }
-        div.services_3  a{
+        div.services_3 a {
             margin-bottom: 10px;
         }
         section.image_boy {
-            height:auto;
+            height: auto;
         }
-        section.image_boy div a{
-            margin:auto;
+        section.image_boy div a {
+            margin: auto;
         }
-        section.gallery h4{
+        section.gallery h4 {
             font-size: 35px;
         }
-        section.check_our h2{
+        section.check_our h2 {
             text-align: center;
             font-size: 60px;
             margin-top: 50px;
         }
-        section.check_our img{
+        section.check_our img {
             display: block;
             margin: 0 auto;
             width: 200px;
             height: 200px;
             margin-top: 40px;
         }
-        section.our_services h3{
+        section.our_services h3 {
             text-align: center;
         }
-        section.our_services p{
+        section.our_services p {
             text-align: center;
         }
         section.check_our div.name {
             font-size: 24px;
-            
         }
-        section.footer input[type="text"], section.footer input[type="email"] {
+        section.footer input[type="text"],
+        section.footer input[type="email"] {
             width: 400px;
         }
         section.footer textarea {
@@ -758,50 +821,46 @@ footer ul li a:hover{
             margin-top: 30px;
             padding: 0 0 0 0;
         }
-
         section.footer ul li {
             margin: 0 auto;
         }
     }
-
-
-@media (min-width: 1200px) and (max-width: 1409.98px){ 
-    
-    body{
-        margin: 0 -15px;
-    }
-
-        section.gallery h4{
+    @media (min-width: 1200px) and (max-width: 1500px) {
+        body {
+            margin: 0 -15px;
+        }
+        section.gallery h4 {
             font-size: 30px;
         }
-        header div.call-to h1{
+        header div.call-to h1 {
             padding-top: 100px;
             width: 80%;
             margin: 0 auto;
         }
-        div.services div p{
+        div.services div p {
             padding-right: 10px;
         }
-        section.check_our h2{
+        section.check_our h2 {
             text-align: center;
         }
         section.image_boy div h3 {
             margin: 0 auto;
         }
-        section.image_boy{
+        section.image_boy {
             height: 100%;
         }
-        section.image_boy div p{
+        section.image_boy div p {
             margin: 0 auto;
             padding-right: 10px;
         }
-        section.footer input[type="text"], section.footer input[type="email"]{
-            width:400px;
+        section.footer input[type="text"],
+        section.footer input[type="email"] {
+            width: 400px;
         }
-        section.footer textarea{
-            width:400px;
+        section.footer textarea {
+            width: 400px;
         }
-        footer p{
+        footer p {
             text-align: right;
             padding-right: 30px;
         }
@@ -813,7 +872,5 @@ footer ul li a:hover{
         div.services_3 div.serv-3 {
             padding-left: 20px;
         }
-
     }
-
 }
